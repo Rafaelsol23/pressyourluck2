@@ -5,10 +5,11 @@
     }
 }
 
-    
+
 }
 
-body {
+
+    body {
     margin: 0;
     padding: 0;
 }
@@ -27,8 +28,9 @@ body {
     grid-column-end: 6;
     grid-row-start: 2;
     grid-row-end: 5;
-}
-
+   
+    }
+   
 .cuadricula > div {
     background-color: orange;
     border: 1px solid brown;
@@ -37,7 +39,7 @@ body {
 }
 
 .cuadricula > div > span {
-    background-color: darkblue;
+    background-color: blue;
     color: white;
     display: flex;
     height: 100%;
@@ -56,5 +58,6 @@ main {
 }
 
 img {
-    height: 90px;
+    width: 82px;
+    height: 82px;
 }
