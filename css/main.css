@@ -36,3 +36,15 @@ body {
     font-size: 40px;
     border-radius: 15px;
 }
+main {
+    background-color: black;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    height: 90px;
+}
